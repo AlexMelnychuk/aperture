@@ -59,6 +59,7 @@ header nav ul li:last-of-type a{
     height: 91vh;
     padding-top: 466px;
     box-sizing: border-box;
+    position: relative;
 }
 .main-container{
     max-width: 580px;
@@ -81,4 +82,65 @@ header nav ul li:last-of-type a{
 }
 .example{
 
+}
+.fa-clock{
+    font-size: 50px;
+    color: green;
+}
+.fixed_information{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.fixed_information li{
+    font: 12px/12px 'Poppins';
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.fixed_information li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 2px;
+}
+.fixed_information li:nth-child(2):before{
+    background-image: url("../images/shutter.svg");
+}
+.fixed_information li:nth-child(3):before{
+    background-image: url("../images/ISO.svg");
+    width: 32px;
+}
+.fixed_information li:last-of-type:before{
+    background-image: url("../images/Fill-1.svg");
+    width: 10px;
+}
+.black-background{
+    background-color: #000000;
+}
+.container-past-clients{
+    max-width: 441px;
+    margin: auto;
+    text-align: center;
+    padding-top: 113px;
+    padding-bottom: 82px;
+}
+.h2-past-clients{
+    font: 40px/42px 'Poppins';
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.p-past-clients{
+    font: 24px/30px 'Poppins';
+    color: #C0C0C0;
+}
+.logo-clients{
+    max-width: 1076px;
+    margin: auto;
+    padding-bottom: 140px;
 }
