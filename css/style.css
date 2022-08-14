@@ -10,42 +10,52 @@
     font-style: normal;
     font-display: swap;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #181818;
     padding: 24px 0;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: auto;
 }
-.d_flex{
+
+.d_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     list-style: none;
 }
-header nav ul li{
+
+header nav ul li {
     margin-left: 32px;
 }
-header nav li a{
+
+header nav li a {
     font: 15px/20px 'Poppins';
     color: #FFFFFF;
     text-decoration: none;
 }
-header nav ul li:first-of-type{
+
+header nav ul li:first-of-type {
     margin-right: 24px;
 }
-header nav ul li:first-of-type a{
+
+header nav ul li:first-of-type a {
     font-size: 13px;
 }
-header nav ul li:last-of-type a{
+
+header nav ul li:last-of-type a {
     background: #FFFFFF;
     border-radius: 14px;
     padding: 11px 20px;
@@ -53,7 +63,8 @@ header nav ul li:last-of-type a{
     letter-spacing: 0.4px;
     color: #000000;
 }
-.main-banner{
+
+.main-banner {
     background-image: url('../images/IMAGE.jpg');
     background-size: cover;
     height: 91vh;
@@ -61,45 +72,54 @@ header nav ul li:last-of-type a{
     box-sizing: border-box;
     position: relative;
 }
-.main-container{
+
+.main-container {
     max-width: 580px;
     margin: auto;
     text-align: center;
 }
-.main-font-p1{
+
+.main-font-p1 {
     font: 14px/20px 'Poppins';
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
 }
-.main-font-h1{
+
+.main-font-h1 {
     font: 54px/59px 'Poppins';
-     color: #FFFFFF;
+    color: #FFFFFF;
 }
-.main-font-p2{
+
+.main-font-p2 {
     font: 14px/20px 'Poppins';
     color: #C0C0C0;
 }
-.example{
+
+.example {
 
 }
-.fa-clock{
+
+.fa-clock {
     font-size: 50px;
     color: green;
 }
-.fixed_information{
+
+.fixed_information {
     display: flex;
     list-style: none;
     position: absolute;
     bottom: 40px;
     right: 40px;
 }
-.fixed_information li{
+
+.fixed_information li {
     font: 12px/12px 'Poppins';
     color: #FFFFFF;
     margin-left: 16px;
 }
-.fixed_information li:before{
+
+.fixed_information li:before {
     content: "";
     display: inline-block;
     background-image: url("../images/clock.svg");
@@ -109,74 +129,92 @@ header nav ul li:last-of-type a{
     position: relative;
     top: 2px;
 }
-.fixed_information li:nth-child(2):before{
+
+.fixed_information li:nth-child(2):before {
     background-image: url("../images/shutter.svg");
 }
-.fixed_information li:nth-child(3):before{
+
+.fixed_information li:nth-child(3):before {
     background-image: url("../images/ISO.svg");
     width: 32px;
 }
-.fixed_information li:last-of-type:before{
+
+.fixed_information li:last-of-type:before {
     background-image: url("../images/Fill-1.svg");
     width: 10px;
 }
-.black-background{
+
+.black-background {
     background-color: #000000;
 }
-.container-past-clients{
+
+.container-past-clients {
     max-width: 441px;
     margin: auto;
     text-align: center;
     padding-top: 113px;
     padding-bottom: 82px;
 }
-.h2-past-clients{
+
+.h2-past-clients {
     font: 40px/42px 'Poppins';
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.p-past-clients{
+
+.p-past-clients {
     font: 24px/30px 'Poppins';
     color: #C0C0C0;
 }
-.logo-clients{
+
+.logo-clients {
     max-width: 1076px;
     margin: auto;
     padding-bottom: 140px;
 }
-.container-need-help{
+
+.container-need-help {
     max-width: 571px;
     margin: auto;
     text-align: center;
     padding-top: 113px;
     padding-bottom: 108px;
 }
-.h2-need-help{
+
+.h2-need-help {
     font: 40px/42px 'Poppins';
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.p-need-help{
+
+.p-need-help {
     font: 24px/30px 'Poppins';
     color: #C0C0C0;
     margin-bottom: 22px;
 }
-.p-button-get{
+
+.p-button-get {
     font: 16px/20px 'Poppins';
     letter-spacing: 0.4px;
     color: #000000;
+    display: inline-flex;
+    align-items: center;
 }
-.get-help{
+
+.get-help {
     width: 154px;
-    height: 42px;
     border-radius: 14px;
     background-color: #FFFFFF;
     margin: auto;
+    padding-top: 5px;
+    padding-bottom: 1px;
 }
-.button-get{
+
+.button-get {
     text-decoration: none;
 }
-.button-get p:before{
+
+.button-get p:before {
     content: "";
     display: inline-block;
     background-color: #000000;
@@ -184,6 +222,5 @@ header nav ul li:last-of-type a{
     height: 32px;
     border-radius: 40%;
     position: relative;
-    top: 5px;
-    left: -5px ;
+    left: -5px;
 }
