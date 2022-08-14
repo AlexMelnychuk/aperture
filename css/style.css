@@ -96,15 +96,6 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
 }
 
-.example {
-
-}
-
-.fa-clock {
-    font-size: 50px;
-    color: green;
-}
-
 .fixed_information {
     display: flex;
     list-style: none;
@@ -122,7 +113,7 @@ header nav ul li:last-of-type a {
 .fixed_information li:before {
     content: "";
     display: inline-block;
-    background-image: url("../images/clock.svg");
+    background-image: url("../images/timer.svg");
     width: 16px;
     height: 16px;
     margin-right: 6px;
@@ -131,7 +122,7 @@ header nav ul li:last-of-type a {
 }
 
 .fixed_information li:nth-child(2):before {
-    background-image: url("../images/shutter.svg");
+    background-image: url("../images/diaphragm.svg");
 }
 
 .fixed_information li:nth-child(3):before {
