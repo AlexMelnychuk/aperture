@@ -67,16 +67,19 @@ header nav ul li:last-of-type a {
 .main-banner {
     background-image: url('../images/IMAGE.jpg');
     background-size: cover;
-    height: 91vh;
-    padding-top: 466px;
+    height: 90vh;
+    padding-bottom: 71px;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .main-container {
     max-width: 580px;
-    margin: auto;
     text-align: center;
+
 }
 
 .main-font-p1 {
@@ -135,16 +138,11 @@ header nav ul li:last-of-type a {
     width: 10px;
 }
 
-.black-background {
-    background-color: #000000;
-}
-
-.container-past-clients {
-    max-width: 441px;
-    margin: auto;
-    text-align: center;
+.past-clients{
     padding-top: 113px;
-    padding-bottom: 82px;
+    padding-bottom: 140px;
+    text-align: center;
+    background-color: #000000;
 }
 
 .h2-past-clients {
@@ -161,15 +159,14 @@ header nav ul li:last-of-type a {
 .logo-clients {
     max-width: 1076px;
     margin: auto;
-    padding-bottom: 140px;
+    padding-top: 82px;
 }
 
-.container-need-help {
-    max-width: 571px;
-    margin: auto;
+.need-help {
     text-align: center;
     padding-top: 113px;
     padding-bottom: 108px;
+    background-color: #000000;
 }
 
 .h2-need-help {
@@ -183,19 +180,21 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
     margin-bottom: 22px;
 }
-.link-get-help{
+
+.link-get-help {
     font: 16px/20px 'Poppins';
     letter-spacing: 0.4px;
     color: #000000;
     display: inline-flex;
     align-items: center;
-    width: 154px;
     border-radius: 14px;
     background-color: #FFFFFF;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
     text-decoration: none;
 }
+
 .link-get-help::before {
     content: "";
     display: inline-block;
@@ -206,4 +205,31 @@ header nav ul li:last-of-type a {
     position: relative;
     margin-left: 4px;
     margin-right: 6px;
+}
+
+.portfolio {
+    background-image: url("../images/mountain.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.portfolio .sub_container {
+    max-width: 298px;
+    margin-right: 62px;
+}
+
+.portfolio .sub_container h3 {
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.portfolio .sub_container p {
+    font: 14px/20px 'Poppins';
+    color: #C0C0C0;
 }
