@@ -67,7 +67,7 @@ header nav ul li:last-of-type a {
 .main-banner {
     background-image: url('../images/IMAGE.jpg');
     background-size: cover;
-    height: 90vh;
+    height: 92vh;
     padding-bottom: 71px;
     box-sizing: border-box;
     position: relative;
