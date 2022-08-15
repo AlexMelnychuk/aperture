@@ -79,7 +79,6 @@ header nav ul li:last-of-type a {
 .main-container {
     max-width: 580px;
     text-align: center;
-
 }
 
 .main-font-p1 {
@@ -87,11 +86,13 @@ header nav ul li:last-of-type a {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
+    margin-bottom: 1px;
 }
 
 .main-font-h1 {
     font: 54px/59px 'Poppins';
     color: #FFFFFF;
+    margin-bottom: 18px;
 }
 
 .main-font-p2 {
