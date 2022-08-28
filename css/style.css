@@ -139,7 +139,7 @@ header nav ul li:last-of-type a {
     width: 10px;
 }
 
-.past-clients{
+.past-clients {
     padding-top: 113px;
     padding-bottom: 140px;
     text-align: center;
@@ -234,3 +234,32 @@ header nav ul li:last-of-type a {
     font: 14px/20px 'Poppins';
     color: #C0C0C0;
 }
+
+.for_link {
+    width: 128px;
+    margin: auto;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-dot span {
+    display: block;
+    margin: 20px 20px 0;
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+}
+
+.owl-dots .active span {
+    background-color: #FFFFFF;
+}
+
+.owl-dot span:hover {
+    background-color: #FFFFFF;
+}
+
