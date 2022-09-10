@@ -9,11 +9,15 @@ $(document).ready(function(){
         navText: [ '', ' ' ],
         dotsEach: true,
 
-
-
         responsive:{
             0:{
-                items:5
+                items:1
+            },
+            350:{
+                items:2
+            },
+            500:{
+                items:3
             },
 
             1000:{

@@ -11,32 +11,86 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!--<header>-->
+<!--    <div class="container d_flex">-->
+<!--        <a href="#">-->
+<!--            <img src="images/logo.svg" alt="logo">-->
+<!--        </a>-->
+<!--        <nav>-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <a href="#">Business areas</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Featured images</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Gear cage</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Contact</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Get template</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</header>-->
 <header>
-    <div class="container d_flex">
+    <div class="container d_flex ">
+
+
         <a href="#">
             <img src="images/logo.svg" alt="logo">
         </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Business areas</a>
-                </li>
-                <li>
-                    <a href="#">Featured images</a>
-                </li>
-                <li>
-                    <a href="#">Gear cage</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Get template</a>
-                </li>
-            </ul>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox"/>
+
+                <!--
+                Some spans to act as a hamburger.
+
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                    <li>
+                        <a href="#">Business areas</a>
+                    </li>
+                    <li>
+                        <a href="#">Featured images</a>
+                    </li>
+                    <li>
+                        <a href="#">Gear cage</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Get template</a>
+                    </li>
+                </ul>
+            </div>
+
         </nav>
+
     </div>
 </header>
+
+<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
 <section class="main-banner">
     <div class="main-container">
         <p class="main-font-p1">Photographer & Filmmaker</p>
@@ -70,7 +124,7 @@
 <section class="past-clients">
     <h2 class="h2-past-clients">Past clients</h2>
     <p class="p-past-clients">Trusted by your favourite companies</p>
-    <div class="logo-clients  d_flex owl-carousel" style="">
+    <div class="logo-clients  d_flex owl-carousel">
         <div class="for_link"><a href="#"><img src="images/Hill_Hayes.svg" alt="Hill Hayes"></a></div>
         <div class="for_link"><a href="#"><img src="images/RIKSGRANSEN.svg" alt="RIKSGRANSEN"></a></div>
         <div class="for_link"><a href="#"><img src="images/Studio_Cai.svg" alt="Studio Cai"></a></div>
