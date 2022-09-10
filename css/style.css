@@ -37,9 +37,9 @@ header {
 /*    list-style: none;*/
 /*}*/
 /*----this one to big monitor-*/
-header nav ul li {
-    margin-left: 32px;
-}
+/*header nav ul li {*/
+/*    margin-left: 32px;*/
+/*}*/
 /*------------------------------------*/
 
 header nav li a {
@@ -48,9 +48,9 @@ header nav li a {
     text-decoration: none;
 }
 /*--------this one to big monito-------------*/
-header nav ul li:first-of-type {
-    margin-right: 24px;
-}
+/*header nav ul li:first-of-type {*/
+/*    margin-right: 24px;*/
+/*}*/
 /*-------------------------------------------*/
 header nav ul li:first-of-type a {
     font-size: 13px;
@@ -415,26 +415,26 @@ header nav ul li:last-of-type a {
  */
 
 /*-----changed for to back standard menu----*/
-#menuToggle input:checked ~ ul
-{
-    transform: none;
-}
+/*#menuToggle input:checked ~ ul*/
+/*{*/
+/*    transform: none;*/
+/*}*/
 
-#menuToggle input{
-    display: none;
+/*#menuToggle input{*/
+/*    display: none;*/
 
-}
-#menuToggle span{
-    display: none;
-}
+/*}*/
+/*#menuToggle span{*/
+/*    display: none;*/
+/*}*/
 
-#menu{
-    position: relative;
-    transform: none;
-    display: flex;
-    max-width: 800px;
-}
+/*#menu{*/
+/*    position: relative;*/
+/*    transform: none;*/
+/*    display: flex;*/
+/*    max-width: 800px;*/
+/*}*/
 
-header{
-    padding: 5px;
-}
+/*header{*/
+/*    padding: 5px;*/
+/*}*/
